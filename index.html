@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fit Grill - Moda Fitness Feminina</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1> Fit Grill</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#pagamento">Pix</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="banner">
+    <h2>Moda Fitness com estilo e conforto </h2>
+    <p>As melhores roupas femininas para treinar e arrasar!</p>
+    <button onclick="rolarPara('produtos')">Ver Produtos</button>
+  </section>
+
+  <section id="produtos" class="produtos">
+    <h2>Produtos em Destaque</h2>
+    <div class="grid">
+      <div class="produto">
+        <img src="fotos/download.jpg" alt="Top Rosa">
+        <h3>Top Rosa</h3>
+        <p>R$ 79,90</p>
+        <button onclick="adicionarCarrinho('Top Rosa', 79.90)">Adicionar ao carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="fotos/download (1).jpg" alt="Legging Pink">
+        <h3>Legging Pink</h3>
+        <p>R$ 119,90</p>
+        <button onclick="adicionarCarrinho('Legging Pink', 119.90)">Adicionar ao carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="fotos/images.jpg" alt="Conjunto Fit">
+        <h3>Conjunto Fit</h3>
+        <p>R$ 189,90</p>
+        <button onclick="adicionarCarrinho('Conjunto Fit', 189.90)">Adicionar ao carrinho</button>
+      </div>
+      <div class="produto">
+  <img src="fotos/shopping.webp" alt="Tênis da Nike Rosa">
+  <h3>Tênis da nike Rosa</h3>
+  <p>R$239,90</p>
+  <button onclick="adicionarCarrinho('Tênis da Nike Rosa', 239.90)">Adicionar ao carrinho</button>
+</div>
+    </div>
+  </section>
+
+  <section id="pagamento" class="pix">
+    <h2> Pagamento via Pix</h2>
+    <p>Simule seu pagamento!.</p>
+    <div class="pix-box">
+      <label for="valor">Valor:</label>
+      <input type="number" id="valor" placeholder="Digite o valor em R$">
+      <button onclick="gerarPix()">Gerar Pix</button>
+    </div>
+    <div id="pix-area"></div>
+  </section>
+
+  <footer id="contato">
+    <p> Contato: fitgrill@loja.com |  Instagram: @fitgrill.oficial</p>
+    <p>© 2025 Fit Grill - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffe6f2;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #ff66b2;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.banner {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #ffb3d9;
+}
+
+.banner h2 {
+  font-size: 2em;
+}
+
+.banner button {
+  background-color: #ff66b2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.produtos {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.produtos .grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.produto {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.3);
+  width: 200px;
+  padding: 50px;
+}
+
+.produto img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.produto button {
+  background-color: #ff66b2;
+  color: white;
+  border: none;
+  padding: 20px;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.pix {
+  background-color: #fff0f5;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.pix-box {
+  margin-top: 15px;
+}
+
+.pix-box input {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ff99cc;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.pix-box button {
+  background-color: #ff66b2;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-left: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#pix-area {
+  margin-top: 20px;
+  background-color: #fff;
+  display: inline-block;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.3);
+}
+
+footer {
+  background-color: #ff66b2;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9em;
+}
