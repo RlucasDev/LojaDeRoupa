@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Iosevka+Charon+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Iosevka+Charon+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #ffe6f2;
@@ -43,6 +45,11 @@ nav ul li a {
 
 .banner h2 {
   font-size: 2em;
+  font-family: "Iosevka Charon Mono", monospace;
+}
+
+.banner p {
+      font-family: "Iosevka Charon Mono", monospace;
 }
 
 .banner button {
@@ -53,13 +60,14 @@ nav ul li a {
   margin-top: 20px;
   border-radius: 20px;
   cursor: pointer;
+  font-family: "Iosevka Charon Mono", monospace;
 }
 
 .produtos {
   padding: 40px 20px;
   text-align: center;
+  font-family: "Iosevka Charon Mono", monospace;
 }
-
 .produtos .grid {
   display: flex;
   justify-content: center;
@@ -94,6 +102,7 @@ nav ul li a {
   background-color: #fff0f5;
   text-align: center;
   padding: 40px 20px;
+  font-family: "Iosevka Charon Mono", monospace;
 }
 
 .pix-box {
@@ -116,6 +125,7 @@ nav ul li a {
   margin-left: 10px;
   border-radius: 10px;
   cursor: pointer;
+  font-family: "Iosevka Charon Mono", monospace;
 }
 
 #pix-area {
